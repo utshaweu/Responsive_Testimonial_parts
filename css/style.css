@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    vertical-align: middle;
+    border: 0;
+}
+#team-area{
+    margin-top: 50px;
+}
+.head{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color: #ff9800;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.sub-heading p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6c6c6c;
+}
+.team-main{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: -50px;
+    overflow: hidden;
+    min-height: 100px;
+    min-width: 100px;
+    width: 100px;
+    height: 100px;
+    border: 10px solid #ff9800;
+    border-radius: 50%;
+}
+.team-main img{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 50%;
+}
+.team-block h3{
+    color: #ff9800;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 70px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.team-block span{
+    color: #6c6c6c;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.team-block p{
+    color: dimgrey;
+    font-size: 14px;
+    padding: 25px 20px;
+    line-height: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+}
+.team-description{
+    background-color: #f5f5f5;
+}
+.team-social-network{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.team-social-network a{
+    margin: 0 6px;
+}
+.team-social-network i{
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    text-align: center;
+    color: #ff9800;
+    border-radius: 50%;
+    border: 3px solid #c4e5f0;
+    padding-top: 10px;
+}
+.team-block:hover .team-description{
+    background-color: #ff9800;
+    color: #fff;
+    transition: .3s ease;
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px #00000070;
+}
+.team-block:hover .title h3,
+.team-block:hover .title span{
+    color: #fff;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.team-block:hover .team-description p{
+    color: #f9f9f9;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.team-block:hover .team-social-network i{
+    border-color: #fff;
+    background-color: #ff9800;
+    color: #fff;
+    transition: .3s ease;
+    cursor: pointer;
+}
